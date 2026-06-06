@@ -23,6 +23,7 @@ def partition(arr,low,high):
 
 # Example usage:
 data = [10, 7, 8, 9, 1, 5]
+print(f"The unsorted array is {data}")
 QuickSort(data, 0, len(data) - 1)
 print("Sorted array:", data)
 # Output: [1, 5, 7, 8, 9, 10]

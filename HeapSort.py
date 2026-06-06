@@ -41,9 +41,7 @@ def heap_sort(arr):
         
         # Call max heapify on the reduced heap
         heapify(arr, i, 0)
-
-
-# --- Example Execution ---
+        
 if __name__ == "__main__":
     # Input unsorted array
     example_array = [12, 11, 13, 5, 6, 7]
